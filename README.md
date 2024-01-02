@@ -12,3 +12,4 @@ corresponding `README`.
 ## Releases
 
 - [v0.0.0](READ_ME/v0-0-0.md)
+- [v0.1.0](READ_ME/v0-1-0.md)
