@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	err := implementations.FizzBuzz(-1, 1, os.Stdout)
+	err := implementations.FizzBuzz(-100, 100, os.Stdout)
 	if err != nil {
 		panic(err)
 	}
