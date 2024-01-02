@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fizz_buzz/implementation"
+	"fizz_buzz/implementations"
 	"os"
 )
 
 func main() {
-	err := implementation.FizzBuzz(-1, 1, os.Stdout)
+	err := implementations.FizzBuzz(-1, 1, os.Stdout)
 	if err != nil {
 		panic(err)
 	}
