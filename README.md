@@ -15,3 +15,4 @@ corresponding `README`.
 - [v0.1.0](READ_ME/v0-1-0.md)
 - [v0.2.0](READ_ME/v0-2-0.md)
 - [v0.3.0](READ_ME/v0-3-0.md)
+- [v0.4.0](READ_ME/v0-4-0.md)
