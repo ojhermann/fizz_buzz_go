@@ -14,11 +14,11 @@ func FizzBuzz(start int, end int, writer io.Writer) error {
 	var sb strings.Builder
 
 	for dividend := start; dividend <= end; dividend++ {
-		if dividend%3 == 0 {
+		if IsDivisible(dividend, 3) {
 			sb.WriteString("Fizz")
 		}
 
-		if dividend%5 == 0 {
+		if IsDivisible(dividend, 5) {
 			sb.WriteString("Buzz")
 		}
 
