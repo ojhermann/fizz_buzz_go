@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  fizz_buzz_go:
+    build:
+      context: .
+      target: run_app
+    image: fbg_app_image
+    container_name: fbg_app_container
+  fizz_buzz_go_development:
+    build:
+      context: .
+      target: dev_app
+    image: fbg_development_image
+    container_name: fbg_development_container
+    volumes:
+      - ./:/app
+    stdin_open: true
+    tty: true
+  fizz_buzz_go_test:
+    build:
+      context: .
+      target: test_app
+    image: fbg_test_image
+    container_name: fbg_test_container

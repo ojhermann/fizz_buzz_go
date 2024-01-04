@@ -1,0 +1,1 @@
+docker compose up fizz_buzz_go_development; docker compose down fizz_buzz_go_development
